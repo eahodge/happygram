@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-image: url("Untitled-1.jpg");
+	background-attachment: local;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+		
+		p{ padding-left: 240px;
+		padding-bottom: 160px;
+
+			
+	
+}
+.john {
+	position: absolute;
+	padding-top: 400px;
+}
+
+
+.meditate {
+	padding-left: 1700px;
+	position: absolute;
+
+}
+
+.funny {
+	padding-left: 50px;
+	position: absolute;
+}
+
+.facts {
+	position: absolute;
+	padding-left: 1100px;
+}
+
+.lonely {
+position: absolute;
+padding-left: 1900px;
+}
+
+
+
+.down {
+padding-left: 1900px;
+position: absolute;
+}
+
+
+
+
+button {width:23em;
+height: 23em;
+margin-left: 400px;
+position: absolute;
+margin-top: 100px;
+
+}
+button:hover span {display:none}
+button:hover:before {content:"The presence of someone else's beauty is not the absence of your own"}
+
+
+.will-container{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	cursor: help;
+	
+}
+
+.will{
+	cursor: help;
+	padding-right: 290px;
+	padding-top: 700px;
+}
+
+		
+.bag {
+font-size: 40px;
+text-align: center;
+margin-bottom: 290px;
+margin-left: 230px;
+}
+
+
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+text-align: left;
+	width: 600px;
+	height: 10px;
+	margin: 500px auto;
+	margin-left: 230px;
+	
+}.popup h1 {
+	margin: 0;
+	padding: 30;
+	font-size: 20px;
+		
+		
+	
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-auto: -80px
+  ;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-auto: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+
+
+	
+}
